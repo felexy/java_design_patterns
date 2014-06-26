@@ -4,10 +4,10 @@ import java.math.BigInteger;
 import java.util.Iterator;
 
 
-public class iteratorExample {
+public class fibonacciIteratorExample {
 
 	/**
-	 * 
+	 * Create a fibonacci sequence and iterate/print its values.
 	 */
 	public static void main(String[] args) {
 		FibonacciSequence seq = new FibonacciSequence( new BigInteger("100000000") );
